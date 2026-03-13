@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 
 export function FullMenuPage() {
@@ -113,7 +112,6 @@ export function FullMenuPage() {
 
   return (
     <div className="min-h-screen bg-[#FAF1D7]">
-      <Navbar />
       
       <section className="px-6 lg:px-12 py-16 lg:py-24 pb-32">
         <div className="max-w-7xl mx-auto">
