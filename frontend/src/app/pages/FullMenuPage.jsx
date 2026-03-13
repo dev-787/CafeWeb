@@ -1,10 +1,14 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Footer } from '../components/Footer';
 
 export function FullMenuPage() {
   const navigate = useNavigate();
   const [cart, setCart] = useState({});
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const allMenuItems = {
     coffee: [
@@ -185,15 +189,15 @@ export function FullMenuPage() {
 
       {/* Fixed Order Now Button */}
       {getTotalItems() > 0 && (
-        <div className="fixed bottom-0 left-0 right-0 bg-[#1C4D19] py-6 px-6 shadow-lg z-50">
+        <div className="fixed bottom-0 left-0 right-0 py-6 px-6 z-50">
           <div className="max-w-7xl mx-auto flex items-center justify-center">
             <button
               onClick={() => alert(`Order placed! Total: $${getTotalPrice()} for ${getTotalItems()} items`)}
-              className="bg-[#FAF1D7] text-[#1C4D19] px-12 py-4 rounded-full font-semibold hover:bg-[#F9E7B4] transition-all flex items-center gap-4"
+              className="bg-[#1C4D19] text-[#FAF1D7] px-12 py-4 rounded-full font-semibold hover:bg-[#2A5D29] transition-all flex items-center gap-4"
               style={{ fontSize: 'clamp(1rem, 1.25vw, 1.125rem)' }}
             >
               <span>Order Now</span>
-              <span className="bg-[#1C4D19] text-[#FAF1D7] px-4 py-1 rounded-full">
+              <span className="bg-[#FAF1D7] text-[#1C4D19] px-4 py-1 rounded-full">
                 {getTotalItems()} items • ${getTotalPrice()}
               </span>
             </button>
