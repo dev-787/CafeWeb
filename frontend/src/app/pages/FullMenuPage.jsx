@@ -300,8 +300,6 @@ export function FullMenuPage() {
     return <SuccessScreen orderId={successId} onBack={() => { setCart({}); setSuccessId(null); }} />;
   }
 
-  const emojiFor = (key) => CATEGORIES.find(c => c.key === key)?.emoji || '☕';
-
   return (
     <div className="min-h-screen bg-[#FAF1D7]">
 
