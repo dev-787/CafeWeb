@@ -1,0 +1,20 @@
+[
+  { "_id": "esp", "name": "Espresso", "description": "Rich and bold single shot of espresso.", "price": 2.50, "category": "coffee", "image": "", "available": true },
+  { "_id": "ame", "name": "Americano", "description": "Espresso with hot water for a smooth, robust flavor.", "price": 3.00, "category": "coffee", "image": "", "available": true },
+  { "_id": "lat", "name": "Latte", "description": "Espresso with steamed milk and a light layer of foam.", "price": 4.00, "category": "coffee", "image": "", "available": true },
+  { "_id": "cap", "name": "Cappuccino", "description": "Equal parts espresso, steamed milk, and foam.", "price": 4.00, "category": "coffee", "image": "", "available": true },
+  { "_id": "fla", "name": "Flat White", "description": "Silky microfoam over a double shot of espresso.", "price": 4.00, "category": "coffee", "image": "", "available": true },
+  { "_id": "mac", "name": "Macchiato", "description": "Espresso marked with a dollop of frothy steamed milk.", "price": 4.00, "category": "coffee", "image": "", "available": true },
+  { "_id": "moc", "name": "Mocha", "description": "Espresso, steamed milk, and rich chocolate syrup, topped with whipped cream.", "price": 4.00, "category": "coffee", "image": "", "available": true },
+  { "_id": "col", "name": "Cold Brew", "description": "Smooth and refreshing cold-brewed coffee, served over ice.", "price": 4.00, "category": "coffee", "image": "", "available": true },
+  { "_id": "mat", "name": "Matcha Latte", "description": "Premium matcha powder blended with steamed milk.", "price": 4.50, "category": "specialty", "image": "", "available": true },
+  { "_id": "tur", "name": "Turmeric Latte", "description": "Turmeric, ginger, and cinnamon blended with steamed milk for a healthy, golden drink.", "price": 4.50, "category": "specialty", "image": "", "available": true },
+  { "_id": "cha", "name": "Chai Latte", "description": "Spiced chai tea blended with steamed milk.", "price": 4.00, "category": "specialty", "image": "", "available": true },
+  { "_id": "hon", "name": "Honey Lavender Latte", "description": "Espresso, steamed milk, honey, and a hint of lavender.", "price": 5.00, "category": "specialty", "image": "", "available": true },
+  { "_id": "van", "name": "Vanilla Latte", "description": "Classic espresso with vanilla syrup and steamed milk.", "price": 4.50, "category": "specialty", "image": "", "available": true },
+  { "_id": "tea", "name": "Tea", "description": "Selection of black, green, and herbal teas.", "price": 3.00, "category": "beverages", "image": "", "available": true },
+  { "_id": "hot", "name": "Hot Chocolate", "description": "Rich and creamy hot chocolate, topped with whipped cream.", "price": 4.50, "category": "beverages", "image": "", "available": true },
+  { "_id": "gol", "name": "Golden Milk", "description": "Turmeric, ginger, and honey blended with steamed milk.", "price": 4.00, "category": "beverages", "image": "", "available": true },
+  { "_id": "ice", "name": "Iced Tea", "description": "Freshly brewed and chilled, served over ice.", "price": 5.00, "category": "beverages", "image": "", "available": true },
+  { "_id": "lem", "name": "Lemonade", "description": "Fresh squeezed lemonade, perfectly sweetened.", "price": 3.50, "category": "beverages", "image": "", "available": true }
+]

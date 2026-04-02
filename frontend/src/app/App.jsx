@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { Toaster } from 'sonner';
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
 import { AboutSection } from './components/AboutSection';
@@ -32,6 +33,7 @@ function HomePage() {
 export default function App() {
   return (
     <Router>
+      <Toaster position="top-center" richColors />
       <Routes>
         {/* Public Routes */}
         <Route path="/" element={<HomePage />} />
